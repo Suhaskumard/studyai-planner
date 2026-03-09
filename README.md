@@ -86,25 +86,6 @@ Authentication
 Real-time Communication
 - Socket.io
 
-📂 Project Structure
-studyflow
-│
-├── client
-│   ├── components
-│   ├── pages
-│   ├── hooks
-│   ├── services
-│   └── App.js
-│
-├── server
-│   ├── controllers
-│   ├── routes
-│   ├── models
-│   ├── middleware
-│   └── server.js
-│
-└── README.md
-
 📈 Future Improvements
 - Mobile app version
 - AI study recommendations
