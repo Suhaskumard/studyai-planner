@@ -1,66 +1,112 @@
-# SmartStudy
+📚 StudyFlow – Smart Study Planner
 
-A comprehensive study management application built with React and Node.js.
+StudyFlow is a **full-stack MERN web application** designed to help students organize their studies, track productivity, and manage study tasks effectively.
+The platform provides tools such as **study planning, task management, productivity analytics, Pomodoro focus timer, and real-time study group chat** to make studying more structured and efficient.
 
-## Features
+ 🚀 Features
 
-- User Authentication (Register/Login)
-- Task Management
-- Note Taking
-- Goal Setting
-- Flashcard Decks
-- Study Session Tracking
-- Schedule Management
-- Analytics Dashboard
-- Timer
+ 🔐 Authentication
+- User Registration
+- User Login / Logout
+- JWT Authentication
+- Secure password hashing with bcrypt
 
-## Tech Stack
+ 📅 Study Planner
+- Add subjects
+- Set exam dates
+- Plan weekly study schedules
+- Edit or delete schedules
 
-- **Frontend**: React, Tailwind CSS
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
+ ✅ Task Management
+- Create study tasks
+- Edit tasks
+- Delete tasks
+- Mark tasks as completed
+- Set task deadlines
 
-## Getting Started
+⏱ Pomodoro Focus Timer
+- 25-minute focus sessions
+- 5-minute break timer
+- Session tracking
+- Focus history
 
-### Prerequisites
+📊 Productivity Analytics Dashboard
+- Daily study hours
+- Weekly progress
+- Subject-wise study time
+- Task completion statistics
 
+🔥 Study Streak System
+- Tracks continuous study days
+- Displays streak count on dashboard
+
+🏆 Gamification
+- Achievement badges
+- Reward points
+- Study milestones
+
+📈 Study Heatmap
+- Visual study activity graph similar to GitHub contributions
+
+💬 Real-time Study Group Chat
+- Join study rooms
+- Real-time messaging
+- Subject-based chat groups
+
+🏅 Leaderboard
+- Rank users based on productivity
+- Study hours
+- Completed tasks
+
+🌙 Dark Mode
+- Toggle between light and dark theme
+
+#🛠 Tech Stack
+
+Frontend
+- React.js
+- Tailwind CSS
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Chart.js / Recharts
+
+Backend
 - Node.js
-- MongoDB (local or cloud)
+- Express.js
 
-### Installation
+Database
+- MongoDB
+- Mongoose
 
-```bash
-# Install all dependencies
-npm run install-all
+Authentication
+- JSON Web Tokens (JWT)
+- bcrypt
 
-# Or install separately
-npm install
-cd client && npm install
-cd ../server && npm install
-```
+Real-time Communication
+- Socket.io
 
-### Running the Application
+📂 Project Structure
+studyflow
+│
+├── client
+│   ├── components
+│   ├── pages
+│   ├── hooks
+│   ├── services
+│   └── App.js
+│
+├── server
+│   ├── controllers
+│   ├── routes
+│   ├── models
+│   ├── middleware
+│   └── server.js
+│
+└── README.md
 
-```bash
-# Start both client and server
-npm start
-
-# Or run separately
-npm run server  # Start backend on port 5000
-npm run client  # Start frontend on port 3000
-```
-
-### Environment Variables
-
-Create a `.env` file in the server directory:
-
-```
-MONGODB_URI=mongodb://localhost:27017/smartstudy
-PORT=5000
-JWT_SECRET=your_jwt_secret
-```
-
-## License
-
-MIT
-
+📈 Future Improvements
+- Mobile app version
+- AI study recommendations
+- Calendar integrations
+- Notification system
